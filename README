@@ -1,0 +1,9 @@
+%%% Autoencoder in C++ written by Xuefei Yan %%%
+
+Makefile made for Linux OS.
+ROOT libs has been enabled in Makefile (CXXFLAGS) only for the main program: test.cpp. In this way, one can directly read data from root files.
+LIBFLAGS are for all the modules in src/, and only need C++11.
+
+test.cpp: an example of reading existing NN into the system, and calculate outputs.
+test_training.cpp: an example of training the Autoencoder system, and write NN weights to files.
+
