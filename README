@@ -7,3 +7,5 @@ LIBFLAGS are for all the modules in src/, and only need C++11.
 test.cpp: an example of reading existing NN into the system, and calculate outputs.
 test_training.cpp: an example of training the Autoencoder system, and write NN weights to files.
 
+If one needs the original txt files in the test programs, please contact Xuefei Yan at xy33@phy.duke.edu
+
